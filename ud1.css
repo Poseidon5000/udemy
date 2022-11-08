@@ -1,0 +1,1169 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 4.5rem;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: center;
+    background-color: white;
+    z-index: 1000; 
+    position: fixed;   
+}
+
+
+ .imgi{
+    border-right: 1px solid  #d1d7dc;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    left: 6rem;
+    margin-bottom: .7rem;
+}
+
+img{
+    padding-top: 14%;
+}
+
+
+/* add hover to nav 
+add hover to get started*/
+.leftnav a{
+    padding-right: 2em;
+    width: 100%;
+    display: inline; 
+    
+      
+}
+
+
+
+.rightnav .sidebar{
+    background-color: black;
+    margin-left: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: bolder; 
+    padding: .9rem ;  
+}
+
+.rightnav a:hover{
+    color: #4435bb;
+}
+
+.rightnav .sidebar:hover{
+    background-color: #4435bb;
+    color: white;
+}
+
+.leftnav{
+    margin-left: 3rem;
+    position: relative;
+    left: 6rem;
+    z-index: 1000;
+    background-color: white;
+}
+
+.leftnav ul a:hover{
+    color: #4435bb;
+}
+
+.rightnav{
+    padding: 0;
+    position: relative;
+    left: 40%;
+    padding-right: 2rem;
+    margin: 0;
+    width: fit-content;
+    position: relative;
+    left: 6rem;
+    /* border: 2px solid black; */
+    
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 68% 32%;
+    
+}
+
+/* .rightnav span a{
+    z-index: 1000;
+    
+} */
+
+.leftnav a{
+    color:black;
+    text-decoration: none;
+}
+
+.rightnav a{
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+.liner{
+    border: .4px solid #d1d7dc;
+    position: fixed;
+    
+    width: 100%;
+    margin-top: 4.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.herodiv{
+    width: 87%;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 5rem;
+    
+}
+
+.herotext{
+    
+    width: 50%;
+    height:70vh ;
+    margin-top: 1rem;
+}
+
+.herotext button:hover{
+    color: white;
+    background-color: #4435bb;
+    border: none;
+}
+
+.heropic{
+   
+    width: 50%;
+    height: 70vh;
+    margin-top: 1rem;
+}
+
+.herotext h1{
+    font-size: 48px;
+    line-height: 65px;
+    margin-top: 7rem;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 3.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    
+   
+    /* margin: 5rem auto; */
+
+}
+ 
+
+.herotext h3{
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+button{
+    padding: 1rem;
+    border: 1.5px solid black;
+    font-weight: 1000;
+    background-color: white;
+}
+
+.heropic{
+    background-image: url(./homepage-hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dipage{
+    width: 100%;
+    height: 87vh;
+    margin: 0 auto;
+    margin-top: 2rem;
+      
+}
+
+.monodiv{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-color: #f0f2f4;
+}
+
+.monodiv h1{
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.monodiv h3{
+    font-size: 19px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.didiv{
+height: 8vh;
+}
+
+.didiv h4{
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.tridiv{
+    height:18vh;
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.monodiv .svgs{
+    margin-bottom: 5rem;
+}
+
+.svgs{
+    width: 60%;
+    height: 28vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo1{
+    width: 20%;
+    height: 28vh;
+    background-image: url(./s1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo2{
+    width: 20%;
+    height: 28vh; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./s2.png);
+}
+
+.logo3{
+    width: 20%;
+    height: 28vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./s3.png);
+}
+
+.logo4{
+    width: 20%;
+    height: 28vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./s4.png);
+}
+
+.logo5{
+    width: 20%;
+    height: 28vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./s5.png);
+}
+
+.tridiv{
+    background-color: #3e4143;
+    width: 100%;
+    height: 38vh;
+}
+
+.align{
+    margin-top: 20rem;
+}
+.icon1{
+    width:20%;
+    background-image: url(./i1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: .5rem .2rem;
+    height: 8vh;
+    margin-top: 2.5rem;
+}
+
+.icon2{
+    width: 15%;
+    background-image: url(./i2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8vh;
+    margin-top: 2.5rem;
+    
+}
+
+.icon3{
+    width: 17%;
+    background-image:url(./i3.svg) ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8vh;
+    margin-top: 2.5rem;
+}
+
+.icon4{
+    width: 16%;
+    background-image: url(./i4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8vh;
+    margin-top: 2.5rem;
+}
+
+.icon5{
+    width:13%;
+    background-image: url(./i5.svg
+    );
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8vh;
+    margin-top: 2.5rem;
+}
+
+.icon6{
+    width:20%;
+    background-image: url(./i6.svg
+    );
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 8vh;
+    margin-top: 2.5rem
+}
+
+.thirdhero{
+    width: 87%;
+    height: 90vh;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 8rem;
+}
+
+.thirdhero h1{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.thirdhero h4{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.thirdsubhero{
+    width: 100%;
+    height: 64vh;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.thirdimg{
+    width:42%;
+    height: 62vh;
+    background-image: url(./u3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4.8rem;
+     margin-top: .7rem;
+  
+
+}
+
+.thirdtext{
+   width:40%;
+   height: 45vh;
+   margin-left: 3.8rem; 
+   margin-top: 6rem; 
+   margin-right: 3rem;  
+}
+
+.thirdtext h2{
+    padding-bottom: 1.5rem;
+}
+
+.thirdtext h4 {
+    font-weight: lighter;
+    font-size: 19px;
+    padding-bottom: 1rem;
+}
+
+.thirdtext h4 a{
+    color: #4435bb;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;  
+}
+
+/* add hover to see whats */
+
+.novh{
+    height: 50vh;
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.lnovh{
+    width:50%;
+    height: 48vh;
+    text-align: left;
+}
+
+.rnovh{
+    width:30%;
+    height: 45vh;
+    margin-left: 2rem;
+    background-image: url(./novh.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.lnovh p{
+    font-size: 19px;
+    padding-bottom: 2rem;
+}
+.lnovh h2, p{
+    margin-left: 4rem;
+    padding-left: 3rem;    
+}
+
+.lnovh h2{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.lnovh p a{
+    color: #4435bb;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.tetradiv{
+    height: 75vh;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 7rem; 
+    display: flex;
+}
+
+.div4{
+height: 73vh;
+width: 40%;
+margin-left: 10rem;
+background-image: url(./tetradiv.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.quartediv{
+height: 50vh;
+width: 59%;
+margin-left: 4rem;
+margin-right: 8rem;
+margin-top: 5rem;
+}
+
+.quartediv h2{
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.quartediv h4 {
+   padding-left: 2rem;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-bottom: 1rem;
+}
+
+.quartediv h4 a{
+    color: #4435bb;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;  
+}
+
+.thirdtext h4 a:hover{
+    color: #a435f0;
+}
+
+.lnovh a:hover{
+    color: #a435f0;
+}
+
+ .quartediv a:hover{
+    color: #a435f0;
+ }
+
+ .div5 a:hover{
+    color: #a435f0;
+ }
+
+
+.pentadiv{
+    height: 75vh;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 7rem; 
+    display: flex; 
+}
+
+.div5{
+    width: 47%;
+    height: 55vh;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.cinqdiv{
+    width: 47%;
+    height: 55vh;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    background-image: url(./pentadiv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div5 h2{
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.div5 h4 {
+   padding-left: 2rem;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-bottom: 1rem;
+}
+
+.div5 h4 a{
+    color: #4435bb;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;  
+}
+
+.hexadiv{
+    height: 75vh;
+    width: 90%;
+    margin-top: 4rem;
+    background-color: black;
+    display: flex;
+}
+
+.div6{
+    width: 20%;
+    height: 15vh;
+    margin-top: 4rem;
+    background-image: url(./Tibco-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 12rem;
+
+}
+
+.sindiv{
+    width: 70%;
+    height: 70vh;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+.sindiv h1{
+    color: white;
+    margin-top: 4rem;
+}
+
+.tpic{
+    
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.tpic1{
+    width: 35%;
+    height: 12vh;
+    border-radius: 50%;
+    background-image: url(./Dr_KimLoan_Headshot.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ttext1{
+    width: 65%;
+    color: white;
+    margin-left: 1rem;  
+}
+
+.ttext2{
+    margin-top:.5rem;
+}
+
+.ttext1 h6{
+    font-size: 14px;
+    padding-left: .2rem;
+    margin-top: .8rem;
+}
+.ttext2{
+    width: 120%; 
+    padding-bottom: .5rem;
+}
+
+.ttext2 h6{
+padding-bottom: .7rem;
+font-weight: lighter;
+padding-right: .3rem;
+}
+
+
+
+.heptadiv{
+    width: 85%;
+    height: 30vh;
+    margin-top: 7rem;
+    margin: 0 auto;
+  
+}
+
+.psuedo{
+    height: 25vh;
+    width: 100%;
+    margin-top: 4.5rem;
+    text-align: center;
+  
+}
+
+.psuedo h3{
+    font-weight: lighter;
+}
+ .psuedo h1{
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+ }
+
+ .unf{
+    width: 87%;
+    height: 95vh;
+    /* border: 2px solid black; */
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: .5rem;
+ }
+
+ .thestate{
+    width: 75%;
+    height:10vh;
+    margin: 0 auto;
+ }
+
+ .state{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+ }
+
+ #astate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+ }
+
+ #astate a{
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+ #astate a span{
+    color: black;
+ }
+
+ #astate span{
+    font-weight: 1000;
+    font-size: 17px;
+ }
+
+ #state1{
+    border-bottom: 5px solid black;
+ }
+
+ .statepic{
+    height:45vh;
+    width: 35%;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+ }
+
+
+
+ .statetext{
+    height: 58vh;
+    width: 47%;
+    margin-left: 10rem;
+    background-image: url(./statepic1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ }
+
+ #thetext{
+    font-size: 20px;
+    font-weight: lighter;
+ }
+
+ .statepic button{
+    background-color: black;
+    color: white;
+ }
+
+ .statepic button:hover{
+    background-color: #4435bb;
+    border: none;
+
+ }
+
+ .statepic h2{
+    padding-bottom: 1.5rem;
+ }
+
+ .packs{
+    width: 87%;
+    height:87vh;
+    margin: 0 auto;
+ }
+
+.pone{
+    height: 15vh;
+    text-align: center;
+    
+}
+
+.ptwo{
+    height: 56vh;
+    display: flex;
+}
+
+.pthird{
+    height: 15vh;   
+}
+
+.pone h1{
+    padding-top: 1rem;
+}
+
+.pack1{
+    height:53vh;
+    width: 25%;
+    margin-left: 1rem;
+}
+.pack2{
+    height: 53vh;
+    width: 25%;
+}
+
+    .pack3{
+    height: 53vh;
+    width: 25%;
+}
+
+.pack4{
+    height: 53vh;
+    width: 25%;
+}
+
+.minipack1{
+    height: 30vh;
+    width: 100%;
+    background-image: url(./minipack1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.minipack2{
+    height: 30vh;
+    width: 100%;
+  
+    background-image: url(./minipack2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minipack3{
+    height: 30vh;
+    width: 100%;
+    
+    background-image: url(./minipack3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minipack4{
+    height: 30vh;
+    width: 100%;
+    
+    background-image: url(./minipack4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minitext1{
+    height: 20vh;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.minitext2{
+    height: 20vh;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.minitext3{
+    height: 20vh;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.minitext4{
+    height: 20vh;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.minitext1 h3{
+  padding-bottom: 1.7rem; 
+  font-weight: bold; 
+}
+
+.minitext1 h4 a{
+    text-decoration: none;
+    color: #4435bb;  
+}
+
+.minitext2 h3{
+    padding-bottom: 1.7rem; 
+    font-weight: bold; 
+  }
+  
+  .minitext2 h4 a{
+      text-decoration: none;
+      color: #4435bb;  
+  }
+
+  .minitext3 h3{
+    padding-bottom: .4rem; 
+    font-weight: bold; 
+  }
+  
+  .minitext3 h4 a{
+      text-decoration: none;
+      color: #4435bb;  
+  }
+
+  .minitext4 h3{
+    padding-bottom: 1.7rem; 
+    font-weight: bold; 
+  }
+  
+  .minitext4 h4 a{
+      text-decoration: none;
+      color: #4435bb;  
+  }
+
+  .pthird button{
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: black;
+  }
+
+ .pthird button:hover{
+    background-color: #4435bb;
+    border: none;
+ } 
+
+ .finale{
+    background-color: #5624d0;
+    width: 100%;
+    height:53vh;
+    margin-top: 2.5rem;
+ }
+
+ .subfinale{
+    width:87%;
+    height: 50vh;
+    margin: 0 auto;
+ }
+
+ .subtext{
+    width:100%;
+    height: 30vh;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 4rem;
+ }
+
+ 
+
+ .subbutton{
+    height: 12vh;
+    width: 100%;
+    margin-top: 1rem;
+    
+ }
+
+ .subbutton button{
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+  }
+
+ .subbutton button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+ } 
+
+ footer{
+    width: 100%;
+    background-color: black;
+    height:70vh ;
+ }
+
+ .tribox{
+    width: 87%;
+    height:55vh;
+    margin: 0 auto;
+ }
+
+ .psuedotri{
+    width:81%;
+    height: 54.5vh;
+    display: flex;
+ }
+
+ .tribox1{
+    width:33%;
+    height: 40vh;
+    color:white;
+    margin-top: 5rem;
+    cursor: pointer;
+    
+ }
+
+ .tribox2{
+    width:33%;
+    height: 40vh;
+    color:white;
+    margin-top: 5rem;
+    cursor: pointer;
+ }
+
+ .tribox3{
+    width:33%;
+    height: 40vh;
+    margin-top: 5rem;
+    color: white;
+    cursor: pointer;
+ }
+
+ .tribox1 h5{
+    font-weight: lighter;
+    font-size: 17px;
+    padding-bottom: 1rem;
+ }
+
+ .tribox2 h5{
+    font-weight: lighter;
+    font-size: 17px;
+    padding-bottom: 1rem;
+ }
+
+ .tribox3 h5{
+    font-weight: lighter;
+    font-size: 17px;
+    padding-bottom: 1rem;
+ }
+
+.iconpacks{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+.iconpacks1{
+    width: 9%;
+    height: 4.5vh;
+    margin-right: .5rem;
+    background-image: url(./linl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconpacks2{
+    width: 9%;
+    height: 4.5vh;
+    margin-right: .5rem;
+    background-image: url(./facebooklogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconpacks3{
+    width: 9%;
+    height: 4.5vh;;
+    margin-right: .5rem;
+    background-image: url(./twitter-icon-18-256.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconpacks4{
+    width: 9%;
+    height: 4.5vh;
+    margin-right: .5rem;
+    background-image: url(./instagram.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+ .endbox{
+    width: 90%;
+    height:13vh;
+    display: flex;
+    margin: 0 auto;
+ }
+
+ .endlogo{
+    width:20%;
+    height:10vh;
+    background-image: url(/udemy_white-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem;
+ }
+
+ .endtext{
+    width:30%;
+    height: 10vh;
+    margin-left: 40rem;
+    margin-top:1rem;
+ }
+
+ .endtext h5{
+    color: white;
+    text-align: right;
+    margin: 1rem;
+    font-weight: lighter;
+    font-size: 15px;
+ }
+
+ .tribox1 h5:hover{
+    color: #a435f0;
+ }
+
+ .tribox2 h5:hover{
+    color: #a435f0;
+ }
+
+ .iconpacks1:hover{
+    color: #a435f0;
+ }
+
+ .iconpacks2:hover{
+    color: #a435f0;
+ }
+
+ .iconpacks3:hover{
+    color: #a435f0;
+ }
+
+ .iconpacks4:hover{
+    color: #a435f0;
+ }
+
+ .iconpacks5:hover{
+    color: #a435f0;
+ }
+
+ .minitext1 h4 a:hover{
+    color: #a435f0;
+ }
+
+ .minitext2 h4 a:hover{
+    color: #a435f0;
+ }
+
+ .minitext3 h4 a:hover{
+    color: #a435f0;
+ }
+
+ .minitext4 h4 a:hover{
+    color: #a435f0;
+ }
+
+
